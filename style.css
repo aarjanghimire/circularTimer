@@ -5,6 +5,7 @@
 }
 
 .centre{
+    padding-top: 40px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -13,8 +14,8 @@
 }
 
 .svg-circle circle{
-    stroke-dasharray: 565.5377807617188;
-    stroke-dashoffset: 565.5377807617188;
+    stroke-dasharray: 534.145751953125;
+    stroke-dashoffset: 5534.145751953125;
     animation-name: lineanimation;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -24,7 +25,253 @@
 
 @keyframes lineanimation{
     0%{
-        stroke-dashoffset: 565.5377807617188;
+        stroke-dashoffset: 534.145751953125;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+/* 
+#leaf1{
+    stroke-dasharray: 446.6626281738281;
+    stroke-dashoffset: 446.6626281738281;
+    fill: #ffffff;
+    animation: fillleaf1animation .6s ease forwards 2s;
+}
+@keyframes fillleaf1animation{
+    0%{
+        fill: #ffffff;
+    }
+    100%{
+        fill: #FF5C5C;
+    }
+}
+
+#leaf2{
+    stroke-dasharray: 372.58978271484375;
+    stroke-dashoffset: 372.58978271484375;
+    fill: #ffffff;
+    animation: fillleaf2animation .3s ease forwards 2.2s;
+}
+@keyframes fillleaf2animation{
+    0%{
+        fill: #ffffff;
+    }
+    100%{
+        fill: #40DBE4;
+    }
+}
+
+#leaf3{
+    stroke-dasharray: 378.04815673828125;
+    stroke-dashoffset: 378.04815673828125;
+    fill: #ffffff;
+    animation: fillleaf3animation .3s ease forwards 2.4s;
+}
+@keyframes fillleaf3animation{
+    0%{
+        fill: #ffffff;
+    }
+    100%{
+        fill: #FFBE5C;
+    }
+}
+
+#leaf4{
+    stroke-dasharray: 561.6515502929688;
+    stroke-dashoffset: 561.6515502929688;
+    fill: #ffffff;
+    animation: fillleaf4animation .3s ease forwards 2.6s;
+}
+
+@keyframes fillleaf4animation{
+    0%{
+        fill: #ffffff;
+    }
+    100%{
+        fill: #5575E8;
+    }
+}
+
+#leaf5{
+    stroke-dasharray: 798.68890380859388;
+    stroke-dashoffset: 798.6889038085938;
+    fill: #ffffff;
+    animation: fillleaf5animation .3s ease forwards 3s;
+}
+
+@keyframes fillleaf5animation{
+    0%{
+        fill: #ffffff;
+    }
+    100%{
+        fill: #91EF57;
+    }
+}  */
+
+/* 
+#leaf1{
+    stroke-dasharray: 446.6626281738281;
+    stroke-dashoffset: 446.6626281738281;
+    fill: #ffffff;
+    animation: fillleaf1animation .6s ease infinite 0s;
+}
+@keyframes fillleaf1animation{
+    0%{
+        fill: #ffffff;
+    }
+    50%{
+        fill: #FF5C5C;
+    }
+    100%{
+        fill: #ffffff;
+    }
+}
+
+#leaf2{
+    stroke-dasharray: 372.58978271484375;
+    stroke-dashoffset: 372.58978271484375;
+    fill: #ffffff;
+    animation: fillleaf2animation .3s ease infinite 0.2s;
+}
+@keyframes fillleaf2animation{
+    0%{
+        fill: #ffffff;
+    }
+    50%{
+        fill: #40DBE4;
+    }
+    100%{
+        fill: #ffffff;
+    }
+}
+
+#leaf3{
+    stroke-dasharray: 378.04815673828125;
+    stroke-dashoffset: 378.04815673828125;
+    fill: #ffffff;
+    animation: fillleaf3animation .3s ease infinite 0.4s;
+}
+@keyframes fillleaf3animation{
+    0%{
+        fill: #ffffff;
+    }
+    50%{
+        fill: #FFBE5C;
+    }
+    100%{
+        fill: #ffffff;
+    }
+}
+
+#leaf4{
+    stroke-dasharray: 561.6515502929688;
+    stroke-dashoffset: 561.6515502929688;
+    fill: #ffffff;
+    animation: fillleaf4animation .3s ease infinite .6s;
+}
+
+@keyframes fillleaf4animation{
+    0%{
+        fill: #ffffff;
+    }
+    50%{
+        fill: #5575E8;
+    }
+    100%{
+        fill: #ffffff;
+    }
+}
+
+#leaf5{
+    stroke-dasharray: 798.68890380859388;
+    stroke-dashoffset: 798.6889038085938;
+    fill: #ffffff;
+    animation: fillleaf5animation .3s ease infinite 1s;
+}
+
+@keyframes fillleaf5animation{
+    0%{
+        fill: #ffffff;
+    }
+    50%{
+        fill: #91EF57;
+    }
+    100%{
+        fill: #ffffff;
+    }
+}
+*/
+
+#leaf1{
+    stroke-dasharray: 446.6626281738281;
+    stroke-dashoffset: 446.6626281738281;
+    animation: leaf1animation 2s linear infinite;
+}
+
+@keyframes leaf1animation{
+    0%{
+        stroke-dashoffset: 446.6626281738281;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#leaf2{
+    stroke-dasharray: 372.58978271484375;
+    stroke-dashoffset: 372.58978271484375;
+    animation: leaf2animation 2s linear infinite;
+}
+
+@keyframes leaf2animation{
+    0%{
+        stroke-dashoffset: 372.58978271484375;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#leaf3{
+    stroke-dasharray: 378.04815673828125;
+    stroke-dashoffset: 378.04815673828125;
+    animation: leaf3animation 2s linear infinite;
+}
+
+@keyframes leaf3animation{
+    0%{
+        stroke-dashoffset: 378.04815673828125;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#leaf4{
+    stroke-dasharray: 561.6515502929688;
+    stroke-dashoffset: 561.6515502929688;
+    animation: leaf4animation 2s linear infinite;
+}
+
+@keyframes leaf4animation{
+    0%{
+        stroke-dashoffset: 561.6515502929688;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#leaf5{
+    stroke-dasharray: 798.68890380859388;
+    stroke-dashoffset: 798.6889038085938;
+    animation: leaf5animation 2s linear infinite;
+}
+
+@keyframes leaf5animation{
+    0%{
+        stroke-dashoffset: 798.6889038085938;
     }
     100%{
         stroke-dashoffset: 0;

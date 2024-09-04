@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circular Timer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="centre" style="position: relative;">
-        <div>
-            <svg class="svg-circle" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle id="circle" cx="100" cy="100" r="85" stroke="#15649D" stroke-width="20"/><!--stroke is a colour property and stroke-width is thickness of circular progress-->
-            </svg>
-        </div>
-        <div class="centre" style="position: absolute; top: 00px; left: 0px;">
-            <img class="scale-up-center" src="heart.png" alt="">
-        </div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="centre" style="position: relative">
+      <div>
+        <svg
+          class="svg-circle"
+          viewBox="0 0 200 200"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            id="circle"
+            cx="100"
+            cy="100"
+            r="85"
+            stroke="#15649D"
+            stroke-width="15"
+          />
+          <!--stroke is a colour property and stroke-width is thickness of circular progress-->
+        </svg>
+      </div>
+      <div class="centre" style="position: absolute; top: 00px; left: 0px">
+        <img class="scale-up-center" src="heart.png" alt="" />
+      </div>
+    </div>
+    <div class="centre" style="position: relative">
+      <div>
+        <svg
+          class="svg-leafs"
+          width="418"
+          height="363"
+          viewBox="0 0 418 363"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="leaf1"
+            d="M250.525 358.649C364.858 345.569 397.663 256.861 399.774 214.142C304.745 226.432 260.68 315.6 250.525 358.649Z"
+            fill="#FF5C5C"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            id="leaf2"
+            d="M302.884 230.727C398.256 228.933 417.64 147 415.41 106.257C336.274 109.108 307.419 190.425 302.884 230.727Z"
+            fill="#40DBE4"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            id="leaf3"
+            d="M185.266 173.709C225.919 85.1974 176.074 22.5581 146.07 2.30234C113.309 76.4914 158.551 147.486 185.266 173.709Z"
+            fill="#FFBE5C"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            id="leaf4"
+            d="M260.977 53.282C345.971 125.388 282.815 255.458 240.613 311.48C175.154 179.926 226.914 84.5339 260.977 53.282Z"
+            fill="#5575E8"
+            stroke="black"
+            stroke-width="3"
+          />
+          <path
+            id="leaf5"
+            d="M219.175 360.5C2.67506 330.5 -0.991605 155.5 2.67506 72.5C175.875 98.9 219.175 275.5 219.175 360.5Z"
+            fill="#91EF57"
+            stroke="black"
+            stroke-width="3"
+          />
+        </svg>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
